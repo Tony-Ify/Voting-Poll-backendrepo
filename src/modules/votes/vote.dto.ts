@@ -1,10 +1,44 @@
 import { IsNumber, IsString, IsEnum } from 'class-validator';
 
 enum State {
-  Lagos = 'Lagos',
-  Abuja = 'Abuja',
-  Kano = 'Kano',
-  // ... include all 36 states
+  ABIA = 'ABIA',
+  ADAMAWA = 'ADAMAWA',
+  AKWA_IBOM = 'AKWA IBOM',
+  ANAMBRA = 'ANAMBRA',
+  BAUCHI = 'BAUCHI',
+  BAYELSA = 'BAYELSA',
+  BENUE = 'BENUE',
+  BORNO = 'BORNO',
+  CROSS_RIVER = 'CROSS RIVER',
+  DELTA = 'DELTA',
+  EBONYI = 'EBONYI',
+  EDO = 'EDO',
+  EKITI = 'EKITI',
+  ENUGU = 'ENUGU',
+  GOMBE = 'GOMBE',
+  IMO = 'IMO',
+  JIGAWA = 'JIGAWA',
+  KADUNA = 'KADUNA',
+  KANO = 'KANO',
+  KATSINA = 'KATSINA',
+  KEBBI = 'KEBBI',
+  KOGI = 'KOGI',
+  KWARA = 'KWARA',
+  LAGOS = 'LAGOS',
+  NASARAWA = 'NASARAWA',
+  NIGER = 'NIGER',
+  Ogun = 'OGUN',
+  ONDO = 'ONDO',
+  OSUN = 'OSUN',
+  OYO = 'OYO',
+  PLATEAU = 'PLATEAU',
+  RIVERS = 'RIVERS',
+  SOKOTO = 'SOKOTO',
+  TARABA = 'TARABA',
+  YOBE = 'YOBE',
+  ZAMFARA = 'ZAMFARA',
+  
+
 }
 
 export class CreateVoteDto {
